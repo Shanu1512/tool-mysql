@@ -1,0 +1,12 @@
+variable "aws_region" {}
+variable "az" {}
+variable "key_name" {}
+variable "ami_id" {}
+variable "app_vpc_cidr" {}
+variable "db_vpc_cidr" {}
+variable "app_subnet_cidr" {}
+variable "db_subnet_cidr" {}
+variable "bastion_subnet_cidr" {}
+variable "bastion_instance_type" {}
+variable "db_instance_type" {}
+variable "app_instance_type" {}
